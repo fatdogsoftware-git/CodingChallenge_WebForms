@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.1022
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodingChallenge_WebForms", "CodingChallenge_WebForms\CodingChallenge_WebForms.csproj", "{E760D988-499B-413B-99D1-6C221A349B81}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E760D988-499B-413B-99D1-6C221A349B81}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E760D988-499B-413B-99D1-6C221A349B81}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E760D988-499B-413B-99D1-6C221A349B81}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E760D988-499B-413B-99D1-6C221A349B81}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3EB9E10C-90DE-4C5E-848F-94A3D54F3055}
+	EndGlobalSection
+EndGlobal
