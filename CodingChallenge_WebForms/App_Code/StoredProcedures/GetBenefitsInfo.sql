@@ -1,0 +1,8 @@
+SELECT TOP (1) [id]
+      ,[DiscountLetter]
+      ,[DiscountPercentage]
+      ,[EmployeeBenefitCost]
+      ,[DependentBenefitCost]
+      ,[EmployeePaycheckAmount]
+      ,[NumberPaychecksPerYear]
+  FROM [CodingChallenge_WebForms].[dbo].[Benefits]

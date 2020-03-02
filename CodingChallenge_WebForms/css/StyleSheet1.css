@@ -1,0 +1,46 @@
+﻿body {
+    background-color: bisque;
+    font-family: 'Segoe UI';
+    font-size: 18px;
+    color: maroon;
+}
+
+td {
+    padding-left: 15px;
+}
+
+.textinput {
+    width: 400px;
+    font-family: 'Segoe UI';
+    font-size: 18px;
+    color: maroon;
+}
+
+.button {
+    background-color: maroon;
+    color: bisque;
+    padding: 10px;
+    border: 2px solid bisque;
+    border-radius: 3px;
+    font-family: 'Segoe UI';
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.error {
+    background-color: white;
+    color: black;
+    font-family: 'Segoe UI';
+    font-size: 16px;
+    border: 2px solid black;
+    border-radius: 3px;
+    padding: 10px;
+}
+
+.info {
+    color: maroon;
+    font-family: 'Segoe UI';
+    font-size: 18px;
+    font-style: italic;
+    font-weight: bold;
+}

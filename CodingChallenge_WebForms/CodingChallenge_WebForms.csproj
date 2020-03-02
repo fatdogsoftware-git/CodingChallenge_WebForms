@@ -67,9 +67,31 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="App_Code\StoredProcedures\CreateDatabase.sql" />
+    <Content Include="App_Code\StoredProcedures\CreateTable.sql" />
+    <Content Include="App_Code\StoredProcedures\GetBenefitsInfo.sql" />
+    <Content Include="App_Code\StoredProcedures\InsertBenefitsInfo.sql" />
+    <Content Include="App_Code\StoredProcedures\spGetBenefits.sql" />
+    <Content Include="bin\CodingChallenge_WebForms.dll" />
+    <Content Include="bin\CodingChallenge_WebForms.pdb" />
+    <Content Include="css\StyleSheet1.css" />
     <Content Include="Web.config" />
+    <Content Include="WebForm1.aspx" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="App_Code\BusinessLogic.cs" />
+    <Compile Include="WebForm1.aspx.cs">
+      <DependentUpon>WebForm1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebForm1.aspx.designer.cs">
+      <DependentUpon>WebForm1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="App_Code\Discount.cs" />
+    <Compile Include="App_Code\DataAccess.cs" />
+    <Compile Include="App_Code\Benefits.cs">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -80,6 +102,9 @@
     <None Include="Web.Release.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Data\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
